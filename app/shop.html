@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/shop.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 
@@ -17,6 +18,9 @@
                 <img class="logo__img" src="images/logo.png" alt="logo">
             </a>
             <nav class="menu">
+                <button class="menu__btn">
+                    <span></span>
+                </button>
                 <ul class="menu__list">
                     <li class="menu__list-item">
                         <a class="menu__list-link menu__list-link--active" href="#">HOME</a>
@@ -82,6 +86,9 @@
     <section class="shop">
         <div class="container">
             <div class="shop__inner">
+                <button class="shop__filter-btn">
+                    <img src="images/icons/filter-icon.svg" alt="filter-icon">
+                </button>
                 <div class="shop__filters filter">
                     <div class="filter-search filter__item">
                         <h3 class="filter__title">Search</h3>
@@ -771,19 +778,18 @@ filter-color__checkbox--purple"></span>
                                 </div>
                             </div>
                         </div>
-                        <div class="pagination">
-                            <a class="pagination__prev pagination__arrows" href="#">PREVIOUS</a>
-                            <ul class="pagination__list">
-                                <li class="pagination__item"><a class="pagination__link" href="#">1</a></li>
-                                <li class="pagination__item"><a class="pagination__link" href="#">2</a></li>
-                                <li class="pagination__item"><a class="pagination__link pagination__link--active" href="#">3</a></li>
-                                <li class="pagination__item"><a class="pagination__link" href="#">....</a></li>
-                                <li class="pagination__item"><a class="pagination__link" href="#">10</a></li>
-                            </ul>
-                            <a class="pagination__next pagination__arrows" href="#">NEXT</a>
-                        </div>
                     </div>
-
+                    <div class="pagination">
+                        <a class="pagination__prev pagination__arrows" href="#">PREVIOUS</a>
+                        <ul class="pagination__list">
+                            <li class="pagination__item"><a class="pagination__link" href="#">1</a></li>
+                            <li class="pagination__item"><a class="pagination__link" href="#">2</a></li>
+                            <li class="pagination__item"><a class="pagination__link pagination__link--active" href="#">3</a></li>
+                            <li class="pagination__item"><a class="pagination__link" href="#">....</a></li>
+                            <li class="pagination__item"><a class="pagination__link" href="#">10</a></li>
+                        </ul>
+                        <a class="pagination__next pagination__arrows" href="#">NEXT</a>
+                    </div>
 
             </div>
             </div>
