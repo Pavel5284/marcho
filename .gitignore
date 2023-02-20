@@ -2,10 +2,9 @@
 .idea/
 .idea/*
 .vscode
-*.sublime*
+
 npm-debug.*
 
-dist/
+
 node_modules/
 package-lock.json
-app/css/*
